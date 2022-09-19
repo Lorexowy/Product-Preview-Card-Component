@@ -94,3 +94,39 @@ section{
 .rectangle a:hover{
     background-color: hsl(157, 37%, 22%);
 }
+
+@media screen and (max-width: 663px) {
+    .rectangle{
+        position: relative;
+        display: inline;
+        align-items: center;
+        justify-content: center;
+    
+        height: 650px;
+        width: 350px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .info-text{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: rem;
+        flex-wrap: wrap;
+    }
+    .info-text h1{
+        font-size: 30px;
+    }
+    .image #img-one{
+        display: none;
+    }
+    .image #img-two{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        border-radius: 15px 15px 0px 0px;
+        height: 245px;
+        width: 350;
+    }
+  }
